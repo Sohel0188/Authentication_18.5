@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container my-5">
+    <div class="row">
+       <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h3> Hello User </h3>
+            </div>
+            <div class="card-body">
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui maxime non, dolore esse, et alias inventore perferendis reiciendis magni, recusandae impedit quod molestiae quos labore ratione distinctio. Explicabo aut, quod esse doloribus aliquid quasi deserunt ipsum odit aliquam, nesciunt tenetur odio facere sunt? Voluptatem dolor quam, accusamus odit saepe, quibusdam sit omnis perferendis quo voluptates officia totam mollitia delectus excepturi nobis animi nostrum cum, ullam nisi impedit. Velit tempore fuga magnam odit, commodi alias aut laudantium repellendus molestiae. Vitae dignissimos tenetur, aut quas veritatis cum ipsam, recusandae ea quia nostrum error voluptatibus harum hic. Obcaecati laudantium cum aperiam eligendi ducimus! </p>
+            </div>
+        </div>
+
+       </div>
+       <div class="col-md-4">
+            <a class="btn btn-success" href="{% url 'changePassword' %}"> Change Your Password</a>
+       </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+
+
+
